@@ -1,17 +1,18 @@
+```vue
 **Option API kullanımı:**
 
 <script lang="ts">
 export default Vue.extend({
   props: {
     value: {
-      type: Array as () => Array<any>, 
-      required: true
+      type: Array as () => Array<any>,
+      required: true,
     },
     message: {
-      type: Object as () => Record<string, any>, 
-      required: true
-    }
-  }
+      type: Object as () => Record<string, any>,
+      required: true,
+    },
+  },
 });
 </script>
 
@@ -21,24 +22,26 @@ export default Vue.extend({
 const props = defineProps({
   value: {
     type: Object,
-    required: true
+    required: true,
   },
   message: {
     type: Object,
-    required: true
-  }
-})
+    required: true,
+  },
+});
 </script>
 
 <script setup lang="ts">
-import { defineProps } from 'vue'
+import { defineProps } from "vue";
 
 interface Props {
-  value: Array<any>
-  message: Object
+  value: Array<any>;
+  message: Object;
 }
 
-const props = defineProps<Props>()
+const props = defineProps<Props>();
 </script>
 
-**_Vue3'te propslar Readonly haline getirilmiştir. Yani sadece okunabilir değeri değiştirilemez._**
+**_Vue3'te propslar Readonly haline getirilmiştir. Yani sadece okunabilir değeri
+değiştirilemez._**
+```
