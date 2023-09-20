@@ -1,0 +1,1 @@
+***Composition API, Vue.js 3 ve sonraki sürümlerde kullanılabilen bir API'dir ve Vue bileşenlerini daha modüler, yeniden kullanılabilir ve okunabilir hale getirmek için tasarlanmıştır. İşte Composition API'nin ne olduğu ve neden kullanıldığına dair bazı anahtar noktalar: Composition API, genellikle Single-File Components içinde <script setup> sözdizimi ile birlikte kullanılır.***
