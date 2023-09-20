@@ -1,3 +1,4 @@
+```vue
 `emit`, Vue.js bileşenlerinde olayları tetiklemek için kullanılan bir yöntemdir. Olaylar, bir bileşenin içinde veya dışında gerçekleşen eylemleri veya durum değişikliklerini temsil eder. Bir bileşen içinde bir olay tetiklendiğinde, bu olayı dinleyen diğer bileşenler veya dışarıdaki kod bu olayı algılayabilir ve buna tepki verebilir.
 
 Emit değişimini iki açıdan inceleyebiliriz.

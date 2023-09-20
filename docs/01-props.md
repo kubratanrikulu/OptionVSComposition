@@ -1,5 +1,5 @@
 ```vue
-**Option API kullanımı:**
+##Option API kullanımı:##
 
 <script lang="ts">
 export default Vue.extend({
@@ -16,7 +16,7 @@ export default Vue.extend({
 });
 </script>
 
-**Composition API kullanımı:**
+##Composition API kullanımı:##
 
 <script setup lang="ts">
 const props = defineProps({

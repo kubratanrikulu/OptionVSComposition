@@ -1,3 +1,4 @@
+```vue
 **Option API kullanımı:**
 
 <script lang="ts">

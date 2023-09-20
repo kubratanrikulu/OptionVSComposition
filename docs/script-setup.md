@@ -1,3 +1,4 @@
+```vue
 `<script setup>` bloğu, Vue 3.0'da tanıtılan ve bileşen kodunu daha sade ve okunabilir hale getiren bir özelliktir. Bu özellik, Composition API'yi kullanırken bileşenlerin daha az kodla yazılmasını sağlar. İşte <script setup> bloğunun neden kullanıldığına dair bazı nedenler:
 
 1-Daha Az Kod: <script setup> kullanarak, bir bileşenin verilerini, işlevlerini ve diğer özelliklerini daha kısa ve daha net bir şekilde tanımlayabilirsiniz. Bu, kodun daha az satırdan oluşmasını sağlar ve bileşenin işlevselliğini daha kolay anlamanıza yardımcı olur.

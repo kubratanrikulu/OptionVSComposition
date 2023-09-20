@@ -1,4 +1,7 @@
-`<script setup>` bloğu ve setup() fonksiyonu, Vue.js 3.x sürümünde kullanılan Composition API'nin iki farklı yazım biçimidir. Her ikisi de Composition API'nin bir parçasıdır, ancak farklı kullanım amaçları ve sözdizimi vardır. İşte bu iki yaklaşımın temel farkları:
+```vue
+`
+<script setup>
+` bloğu ve setup() fonksiyonu, Vue.js 3.x sürümünde kullanılan Composition API'nin iki farklı yazım biçimidir. Her ikisi de Composition API'nin bir parçasıdır, ancak farklı kullanım amaçları ve sözdizimi vardır. İşte bu iki yaklaşımın temel farkları:
 
 1- `<script setup>` bloğu, Vue 3.0.6'dan itibaren kullanılabilen bir özelliktir ve bileşenin tanımlanmasını oldukça sadeleştirir. Bu yaklaşım, verileri ve işlevleri otomatik olarak içeri aktarır ve bu nedenle verilere ve işlevlere this anahtar kelimesini kullanmadan erişebilirsiniz. Ayrıca, verileri ve işlevleri daha az kod ile tanımlamanıza olanak tanır.
 
@@ -27,7 +30,7 @@ const increment = () => {
 **Setup()**
 
 <script>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 export default {
   setup() {
@@ -39,8 +42,9 @@ export default {
 
     return {
       count,
-      increment
+      increment,
     };
-  }
+  },
 };
 </script>
+```
